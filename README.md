@@ -27,6 +27,11 @@ REX_VALUE[id=1 output=html]
 
 Zur Konfiguration eigener Profile bitte in das default Profil schauen und die [TinyMCE 5 Doku](https://www.tiny.cloud/docs/) beachten. 
 
+**Hilfe**: Speicherung der Umlaute einstellen
+
+`entity_encoding:"raw",` Umlaute (äöü...) werden als solche gespeichert und nicht (&amp;auml; &amp;ouml; &amp;uuml; ...)
+
+
 ## ToDo:
 
 - mblock-Kompatibilität verbessern
